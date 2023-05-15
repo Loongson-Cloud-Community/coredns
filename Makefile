@@ -33,3 +33,6 @@ pb:
 clean:
 	go clean
 	rm -f coredns
+
+image:
+	docker build -t cr.loongnix.cn/rancher/coredns-coredns:1.8.3 .

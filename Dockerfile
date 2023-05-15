@@ -1,4 +1,4 @@
-FROM debian:stable-slim
+FROM cr.loongnix.cn/library/debian:buster
 
 RUN apt-get update && apt-get -uy upgrade
 RUN apt-get -y install ca-certificates && update-ca-certificates
